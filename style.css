@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,400;0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.the-main{
+  width: 100px;
+  height: 100px;
+}
+
+.nav-bar{
+  position: fixed;
+  background-color: crimson;  
+  width: 100vw;
+  text-align: center;
+  /* z-index: 3; */
+  background: linear-gradient(to left, blue,red);
+}
+
+.nav-bar li{
+  display: inline-block;
+  text-align: center;
+  margin: 25px;
+  list-style: none;
+  font-size: 1.4rem;
+}
+
+.nav-bar li a{
+text-decoration: none;
+color: white;
+}
+
+.nav-bar a:hover{
+  color: black;
+  background-color: springgreen;
+  
+}
+
+.tribute-ses{
+  max-width: 900px;
+  width: 100%;
+  height: 200vh;
+  background-color: white; 
+  margin: 90px auto 0;
+  margin-top: 80px;
+  padding: 60px;
+  color: black;
+  box-shadow: 0 0 10px black;
+  
+  padding-right: 199px;
+  padding-left: 190px;
+  /* transform: translateY(65px);
+  z-index: 2;   */
+}
+
+.tribute-ses{
+  text-align: center;
+  
+}
+
+.remember{
+  text-align: center; 
+  line-height: 1.7;
+}
+
+.remember h1{
+  font-size: 2.9rem;
+}
+.remember p{
+  margin-top: -10px;
+}
+
+.text-section{
+  text-orientation: sideways;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.child h1{
+  font-size: 1rem;
+}
+.child p{
+  color: rgba(14, 14, 14, 0.9);
+  line-height: 2;
+}
+
+#footer{
+  font-size: 0.7rem;
+}
+
+@media (max-width:768px){
+  .tribute-ses{
+    max-width: 900px;
+    width: 100vw;
+    height: 100%;
+    margin: 90px auto 0;
+    margin-top: 180px;
+    padding: 60px;
+  }
+  .nav-bar{
+    position: fixed;
+  } 
+}
+
+@media (max-width:180px) and (min-width:900px){
+  .tribute-ses{
+    width: 100vw;
+    height: 100%;
+    margin: 90px auto 0;
+    margin-top:0px;
+    
+  }
+  .nav-bar{
+    position: fixed;
+    display: inline-block;
+    margin-bottom: 100px;
+    justify-content: space-evenly;
+    padding: 50px;
+
+  } 
+}
+
